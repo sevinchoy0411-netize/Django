@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    {% for ustoz in ustozlar %}
+        <h2>Ustoz ismi : {{ustoz.ism}}</h2>
+        <h2>Ustoz yoshi : {{ustoz.yosh}}</h2>
+        <h2>Ustoz yo'nalishi : {{ustoz.yonalish}}</h2>
+        <h2>Ustoz tajribasi : {{ustoz.tajriba}}</h2>
+    {% endfor %}
+</body>
+</html>
